@@ -1,0 +1,77 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 99%;
+    z-index: 1;
+    background-color: #ff874e;
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#fire{
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+   
+h1 {
+    /* color: #ffca05; #ff3505; */
+    font-size: 3em;
+}
+   
+   
+p, li {
+    font-size: 18px;
+}
+
+
+.banner{
+    text-align: center;
+    margin-top: 75px;
+}  
+
+#doggo{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+}
+
+#doggo img{
+   width: 100%;
+   position: absolute;
+   top: 85%;
+   transform: translateY(-50%);
+   left: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.main{
+    padding-bottom: 50px;
+}
+
+footer{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    text-align: center;
+    background-color: #615a1496;
+    font-weight: bold;
+}
